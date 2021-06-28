@@ -1,0 +1,24 @@
+{
+  "name": "installment-loan",
+  "version": "1.0.0",
+  "description": "分期贷款计算",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bestchu/installment-loan.git"
+  },
+  "keywords": [
+    "installment",
+    "loan",
+    "repayment"
+  ],
+  "author": "xiaochu <newi@qq.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bestchu/installment-loan/issues"
+  },
+  "homepage": "https://github.com/bestchu/installment-loan#readme"
+}
