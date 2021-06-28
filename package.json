@@ -1,7 +1,7 @@
 {
   "name": "installment-loan-calculator",
   "version": "1.0.4",
-  "description": "分期贷款计算",
+  "description": "分期贷款计算器，支持等额本金、等额本西、等本等息",
   "main": "./lib",
   "scripts": {
     "build": "tsc --build",
