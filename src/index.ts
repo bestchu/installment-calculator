@@ -246,4 +246,4 @@ class InstallmentCalculator {
     };
   }
 }
-
+export default InstallmentCalculator;

@@ -1,21 +1,21 @@
-//
-// console.log(
-//   InstallmentCalculator.installment(2.5e4, 24, 21.24, {
-//     paymentDate: '2020-08-07',
-//     capitalDiminishing: false,
-//     interestDiminishing: true,
-//     repayments: [
-//       { date: '2020-09-07', amount: 1287.59 },
-//       { date: '2020-10-07', amount: 1287.59 },
-//       { date: '2020-11-07', amount: 1287.59 },
-//       { date: '2020-12-23', amount: 891 },
-//       { date: '2020-12-25', amount: 414.83 },
-//       { date: '2021-01-08', amount: 1287.59 },
-//       { date: '2021-02-08', amount: 10 },
-//       { date: '2021-05-21', amount: 500 },
-//     ],
-//   }),
-// );
+const { default: InstallmentCalculator } = require('../lib');
+console.log(
+  InstallmentCalculator.installment(2.5e4, 24, 21.24, {
+    paymentDate: '2020-08-07',
+    capitalDiminishing: false,
+    interestDiminishing: true,
+    repayments: [
+      { date: '2020-09-07', amount: 1287.59 },
+      { date: '2020-10-07', amount: 1287.59 },
+      { date: '2020-11-07', amount: 1287.59 },
+      { date: '2020-12-23', amount: 891 },
+      { date: '2020-12-25', amount: 414.83 },
+      { date: '2021-01-08', amount: 1287.59 },
+      { date: '2021-02-08', amount: 10 },
+      { date: '2021-05-21', amount: 500 },
+    ],
+  }),
+);
 // console.log(
 //   InstallmentCalculator.installment(4300, 12, 15.36, {
 //     firstRepaymentDate: '2020-12-6',
