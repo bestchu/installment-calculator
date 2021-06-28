@@ -4,7 +4,7 @@
 .eslintignore
 .prettierrc
 .eslintrc.js
-.tsconfig.build.json
+tsconfig.build.json
 tsconfig.json
 /src
 /test
