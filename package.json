@@ -1,5 +1,5 @@
 {
-  "name": "installment-loan",
+  "name": "installment-loan-calculator",
   "version": "1.0.0",
   "description": "分期贷款计算",
   "main": "./lib",
